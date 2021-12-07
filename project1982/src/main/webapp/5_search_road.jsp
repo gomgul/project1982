@@ -6,11 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="./resources/css/3_main.css">
+    <link rel="stylesheet" href="./resources/css/5_search_road.css">
 </head>
 <body>
  
@@ -22,87 +21,68 @@
             <a href="#" class="logo">
                 <img src="./3.jpg"/>
             </a>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
             
             <!--메뉴-->   
-            
-            <!-- 오른쪽 메뉴-->
-            <form action="friends.html" method="get" id="login-form">
+            <ul class="menu">
                
-                <input type="submit" value="검색" />
+                <li><a href="#">업체 길찾기 페이지</a>
+                <!--쎄일 라벨 -->
+                    <span class="sale-lable">신규</span>
+                </li>
                 
-                <a href="#">1982</a>
-              </form>
+            </ul>
+            <!-- 오른쪽 메뉴-->
+            <div class="right-menu">
+                <!--검색 -->
+                <a href="#" class="search">
+                    <i class="fas fa-search"></i>
+                </a>
+                <!--유저 -->
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                </a>
+                <!--카트  -->
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                    <!--카트 상품-->
+                    <span class="num-cart-product">0</span>
+                    </i>
+                </a>
+            </div>
 
         </header>
 
     <!-- 메인 ---------------------------------------------------------------->
-        <main >
-            <div>
-                <div class="main_title">내 주변 일자리</div>
-                <div  class="main">
-                  <div class="main_left"></div>
-                  <div>  
-                       <div class="main_right"></div>
-                       <div class="main_right"></div>
-                  </div>
-                  <div>
-                        <div class="main_right"></div>
-                        <div class="main_right"></div>
-                  </div>
-                </div>
+        <main class="main">
+            <div class="main_img">
+                <img src="" alt="" />
             </div>
-            <div>
-                <div class="main_title">긴급 일자리</div>
-                <table border='1'>
-                    <tr>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
+            <div >
+                <form action="friends.html" method="get" id="login-form">
+                    <input name="username" type="text" placeholder="업체명" />
+                    <input name="password" type="password" placeholder="주소" />
+               
+                  </form>
+                  <div class="review_star">
                       
-                    </tr>
-                    <tr>
-                      <td>Apple</td>
-                      <td>3000</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                   
-                    </tr>
-                    <tr>
-                      <td>Banana</td>
-                      <td>2000</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                     
-                    </tr>
-                    <tr>
-                        <td>Banana</td>
-                        <td>2000</td>
-                        <td>Product</td>
-                        <td>Price</td>
-                        <td>Product</td>
-                    </tr>                    
-                  </table>
-                  <div class="main_title">페이지 표시</div>
+                      <div class="star">
+                        <a href="#"><i class="fas fa-bus"></i></a>
+                        <a href="#"><i class="fas fa-subway"></i></a>
+                        <a href="#"><i class="fas fa-taxi"></i></a>
+                        <a href="#"><i class="fas fa-biking"></i></a>
+                        
+                        </div>
+                         
+                            <input name="username" type="text" placeholder="업체명" class="review_input" />
+                            <input name="password" type="password" placeholder="주소" />
+                        
+                      <button class="button">지원하기</button>
+                      <input name="password" type="password" placeholder="주소" />
+
+                  </div>
             </div>
+
+
         </main>
 
 
