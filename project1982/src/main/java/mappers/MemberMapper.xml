@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="user">
+
+	<insert id="userInsert" parameterType="com.javassem.domain.MemberVO">
+		INSERT INTO MEMBER(USERID, USERPASS, USERNAME)
+		VALUES(	#{userId}, #{userPass}, #{userName})
+	</insert> 
+	
+	<select id="idCheck" parameterType="com.javassem.domain.MemberVO" resultType="com.javassem.domain.MemberVO">
+		select * from member 
+		<where>
+		<if test="userId != null">
+				USERID = #{userId} 
+		</if>
+		<if test="userPass != null">
+				AND USERPASS = #{userPass} 
+		</if>
+		</where>
+		
+	</select>
+
+</mapper>
