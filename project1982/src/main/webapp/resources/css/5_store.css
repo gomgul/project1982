@@ -16,10 +16,11 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0px 45px;
-    
+ 
   height: 150px;
   width: 100%;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 100px;
   }
   .logo img {
     height: 70px;
@@ -184,33 +185,96 @@ margin:auto 300px;
 .right_copyright{
     color:rgba(0, 0, 0, 0.7);
 }
+/* -------------------------------------------------로긴 -----------------------------*/
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px;
+    width:45%;
+  }
+  
+  #login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  #login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  #login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  #login-form input:focus {
+    border-color: var(--yellow);
+  }
+  
+  #login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+  }
+  
+  #login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  }
+/* -------------------------------------------------메인 --------------------------------------*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main_img{
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+    border: 5px solid lightsalmon;
+}
+.review_star{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid lightcoral;
+
+}
+.star{
+    margin: 10px 0;
+}
 
 
-/* ------------------------------------메인 --------------------------------------*/
+
+/*--------------------------------------------*/
+
 
 .main_title{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-size:xx-large;
 }
-.main{
+.main_input{
+    margin: 0 20px;
+    width: 300px;
+}
+.chart_title{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 300px;
 }
-.main_left{
-    width: 500px;
-    height: 450px;
-    margin-top: 50px;
-    border: 5px solid rgb(204, 204, 29);
-}
-.main_right{
-    width: 250px;
-    height: 200px;
-    border: 5px solid lightcoral;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 25px;
+.chart_title div{
+    padding-left: 50px;
+    font-size: 20px;
+    
 }
 
 table tr td{
@@ -222,6 +286,10 @@ table{
     margin-top: 30px;
     font-size: 80px;
 }
+
+
+
+
 
 
 

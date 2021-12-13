@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c"%>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,10 +7,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="./resources/css/5_search_road.css">
+    <link rel="stylesheet" href="<c:url value='/resources/css/20/style/style.css'/>" >
+    <link rel="stylesheet" href="<c:url value='/resources/css/header.css' />" >
 </head>
 <body>
  
@@ -19,17 +22,19 @@
          <!-- 로고-->
             
             <a href="#" class="logo">
-                <img src="./3.jpg"/>
+                <img src=""/>
             </a>
             
             <!--메뉴-->   
             <ul class="menu">
-               
-                <li><a href="#">업체 길찾기 페이지</a>
+                <li><a href="#">구직자용</a></li>
+                <li><a href="#">구인자용</a>
                 <!--쎄일 라벨 -->
                     <span class="sale-lable">신규</span>
                 </li>
-                
+                <li><a href="#">둘러보기</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">고객센터</a></li>
             </ul>
             <!-- 오른쪽 메뉴-->
             <div class="right-menu">
@@ -53,42 +58,93 @@
         </header>
 
     <!-- 메인 ---------------------------------------------------------------->
-        <main class="main">
-            <div class="main_img">
-                <img src="" alt="" />
-            </div>
-            <div >
-                <form action="friends.html" method="get" id="login-form">
-                    <input name="username" type="text" placeholder="업체명" />
-                    <input name="password" type="password" placeholder="주소" />
-               
-                  </form>
-                  <div class="review_star">
-                      
-                      <div class="star">
-                        <a href="#"><i class="fas fa-bus"></i></a>
-                        <a href="#"><i class="fas fa-subway"></i></a>
-                        <a href="#"><i class="fas fa-taxi"></i></a>
-                        <a href="#"><i class="fas fa-biking"></i></a>
-                        
+        <main>
+            <ul class="left_nav">
+                <li class="left_nav_text"><a class="home" href="#">홈</a></li>
+                <li class="left_nav_text"><a href="#">새소식</a></li>
+                <li class="left_nav_text"><a href="#">상품</a></li>
+                <li class="left_nav_text"><a href="#">회사</a></li>
+            </ul>
+
+            <div class="body_container"> <!-- 페이지 컨테이너 시작-->
+             
+                <div class="body_container_center"> <!-- 중간 메뉴바 시작-->
+                   <div class="body_container_center_title"> 고객센터</div>
+                   <div class="search_input">
+                       <select name="" id="" >
+                           <option value="">제목</option>
+                           <option value="">작성일</option>
+                           <option value="">작성자</option>
+                           <option value="">구분</option>
+                           <option value="">제목+내용</option>
+                        </select>
+
+                        <input type="text" placeholder="내용을 입력해주세요.">
+
+                        <button>검색</button>
+                   </div>
+                   <div class="divTable minimalistBlack">
+                    <div class="divTableHeading">
+                    <div class="divTableRow">
+                    <div class="divTableHead">head1</div>
+                    <div class="divTableHead">head2</div>
+                    <div class="divTableHead">head3</div>
+                    <div class="divTableHead">head4</div>
+                    </div>
+                    </div>
+                    <div class="divTableBody">
+                    <div class="divTableRow">
+                    <div class="divTableCell">cell1_1</div>
+                    <div class="divTableCell">cell2_1</div>
+                    <div class="divTableCell">cell3_1</div>
+                    <div class="divTableCell">cell4_1</div>
+                    </div>
+                    <div class="divTableRow">
+                    <div class="divTableCell">cell1_2</div>
+                    <div class="divTableCell">cell2_2</div>
+                    <div class="divTableCell">cell3_2</div>
+                    <div class="divTableCell">cell4_2</div>
+                    </div>
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    <div class="divTableRow">
+                    <div class="divTableCell">foot1</div>
+                    <div class="divTableCell">foot2</div>
+                    <div class="divTableCell">foot3</div>
+                    <div class="divTableCell">foot4</div>
+                    </div>
+                    </div>
+                    </div>
+                   <div class="buttons">
+                       <button class="border_write">글 쓰기</button> 
+
+                       <div class="links">
+                        <a href="#">&laquo;</a>
+                            <a class="active" href="#">1</a> 
+                            <a href="#">2</a> 
+                            <a href="#">3</a> 
+                            <a href="#">4</a> 
+                        <a href="#">&raquo;</a>
                         </div>
-                         
-                            <input name="username" type="text" placeholder="업체명" class="review_input" />
-                            <input name="password" type="password" placeholder="주소" />
-                        
-                      <button class="button">지원하기</button>
-                      <input name="password" type="password" placeholder="주소" />
-
-                  </div>
-            </div>
-
-
+                   </div>
+                </div><!--중간 메뉴바 종료-->
+               
+           
+            </div><!-- 페이지 컨테이너 종료--       
+        
         </main>
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ 
 
 
 
