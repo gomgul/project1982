@@ -35,6 +35,9 @@
   #login-form a {
     text-align: center;
     text-decoration: none;
+    border: none;
+    padding: 15px 0px;
+    margin-bottom: 25px;
     color: inherit;
-    font-size: 13px;
+    font-size: 18px;
   }
