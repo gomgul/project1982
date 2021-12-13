@@ -10,10 +10,10 @@
 	Hello world!  
 </h1>
 
-<p> <a href='user/userLogin.do'>로그인</a> </p>
-<p> <a href='user/userJoin.do'>회원가입</a></p>
+<p> <a href='login/1_login.do'>로그인</a> </p>
+<p> <a href='login/2_register.do'>회원가입</a></p>
 
-<a href='user/sample.do'>ㅇㄹㅇㄹ</a>
+<a href=''>ㅇㄹㅇㄹ</a>
 
 
 </body>
