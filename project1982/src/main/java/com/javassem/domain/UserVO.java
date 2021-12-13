@@ -80,4 +80,5 @@ public class UserVO {
 	public void setUserdate(String userdate) {
 		this.userdate = userdate;
 	}
+	
 }
