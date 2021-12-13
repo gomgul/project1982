@@ -23,10 +23,9 @@
             <!--메뉴-->   
             <ul class="menu">
                
-                <li><a href="#">업체 리뷰 페이지</a>
-                <!--쎄일 라벨 -->
-                    <span class="sale-lable">신규</span>
-                </li>
+                <li><a href="#soge">소개</a></li>
+                <li><a href="#team">팀 소개</a></li>
+                <li><a href="login/1_login.do">관리자로그인</a></li>
                 
             </ul>
             <!-- 오른쪽 메뉴-->
@@ -51,12 +50,12 @@
         </header>
 
     <div class="main">
-        <button class="main_button" action="login/2_login">구직자 로그인</button>
-        <button class="main_button" action="login/2_login">사업자 로그인</button>
+        <a class="main_button" href="login/1_login.do">구직자 로그인</a>
+        <a class="main_button" href="login/1_login.do">사업자 로그인</a>
     </div>
 <!-- main------------------------------------------------------------------>
     <section>
-        <div class="title">1982 소개</div>
+        <div class="title" id="soge">1982 소개</div>
         <div class="title_wrap">
             <div>
                 <div class="circle"></div>
@@ -75,7 +74,7 @@
     </section>
 
     <article>
-        <div class="title">팀 소개</div>
+        <div class="title" id="team">팀 소개</div>
         <div class="title_wrap">
             <div>
                 <div class="circle"></div>

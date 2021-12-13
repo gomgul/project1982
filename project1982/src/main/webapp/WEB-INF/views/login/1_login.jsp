@@ -34,14 +34,14 @@
 <body>
 
     <form action="login.do" method="get" id="login-form" name="loginform">
-    	<h1>1982(구직자 로그인)</h1>
+    	<h2>1982(구직자 로그인)</h2>
         <input name="userid" type="text" placeholder="ID" />
         <input name="userpass" type="password" placeholder="Password" />
         <input type="submit" name="Submit" id="Submit" value="로그인" />
-        <ul>
-        	<li>아이디 |</li>
-        	<li>비밀번호 찾기 |</li>
-        	<li>회원가입</li>
+        <ul id="">
+        	<li><a href="#">아이디 |</a></li>
+        	<li><a href="#">비밀번호 찾기 |</a></li>
+        	<li><a href="register.do">회원가입</a></li>
         </ul>
     </form>
     

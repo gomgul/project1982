@@ -27,7 +27,6 @@
         
 
         <input type="submit" name="confirm" id="confirm" value="가입하기" />
-        <input type="submit" name ="reset" value="취 소" />
         <a href="../main.do">1982</a>
       </form>
 </body>
