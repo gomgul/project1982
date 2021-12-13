@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-    <title>Document</title>
+    <title>adminPage.jsp</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/header.css">
+	<link type="text/css" href="/project1982/resources/style/style.css" rel="stylesheet"/>
+    <link type="text/css" href="/project1982/resources/style/header.css" rel="stylesheet"/>
 </head>
 <body>
  
@@ -68,22 +70,42 @@
          
                 <div class="body_container_center"> <!-- 중간 메뉴바 시작-->
                    
+                    <div>서비스 이용 지표</div>
+                    <div class="body_container_center_services">
+                        <div class="service1">
+                            <div class="service1_left">asdad</div>
+                            <div class="service1_right">asdasda</div>
+                        </div>
+                        <div class="service2">
+                            <div class="service2_left">asdasd</div>
+                            <div class="service2_right"><asdasd/div>
+                        </div>
+                   
+                    
+                    </div>
+                   
+                   
+                   
+                   
+                    <div>회원가입 현황</div>
+                    <div class="body_container_center_members">
+                        <div class="member1"></div>
+                        <div class="member2"></div>
+                    </div>
+
                     
                     
                     
-                    
-                    <div>임금 예치 내역</div>
+                    <div>예치 현황</div>
                     <div>
                         <div class="divTable minimalistBlack">
                             <div class="divTableHeading">
                             <div class="divTableRow">
-                            <div class="divTableHead">번호</div>
-                            <div class="divTableHead">긴급/일일</div>
-                            <div class="divTableHead">출근자 이름</div>
-                            <div class="divTableHead">근무 위치</div>
-                            <div class="divTableHead">날짜</div>
-                            <div class="divTableHead">근무시간</div>
-                            <div class="divTableHead">예치금액</div>
+                            <div class="divTableHead">업체명</div>
+                            <div class="divTableHead">예치금</div>
+                            <div class="divTableHead">진행상황</div>
+                            <div class="divTableHead">구직자 이름</div>
+                            <div class="divTableHead">이체하기</div>
                             </div>
                             </div>
                             <div class="divTableBody">
@@ -92,42 +114,32 @@
                             <div class="divTableCell">cell2_1</div>
                             <div class="divTableCell">cell3_1</div>
                             <div class="divTableCell">cell4_1</div>
-                            <div class="divTableCell">cell5_1</div>
-                            <div class="divTableCell">cell6_1</div>
-                            <div class="divTableCell">cell7_1</div>
+                            <div class="divTableCell"><button>이체</button></div>
                             </div>
                             <div class="divTableRow">
                             <div class="divTableCell">cell1_2</div>
                             <div class="divTableCell">cell2_2</div>
                             <div class="divTableCell">cell3_2</div>
                             <div class="divTableCell">cell4_2</div>
-                            <div class="divTableCell">cell5_2</div>
-                            <div class="divTableCell">cell5_2</div>
                             <div class="divTableCell"><button>이체</button></div>
                             </div>
                             <div class="divTableRow">
                             <div class="divTableCell">cell1_3</div>
                             <div class="divTableCell">cell2_3</div>
-                            <div class="divTableCell">cell2_3</div>
                             <div class="divTableCell">cell3_3</div>
                             <div class="divTableCell">cell4_3</div>
-                            <div class="divTableCell">cell5_3</div>
                             <div class="divTableCell"><button>이체</button></div>
                             </div>
                             <div class="divTableRow">
                             <div class="divTableCell">cell1_4</div>
                             <div class="divTableCell">cell2_4</div>
                             <div class="divTableCell">cell3_4</div>
-                            <div class="divTableCell">cell3_4</div>
                             <div class="divTableCell">cell4_4</div>
-                            <div class="divTableCell"><button>이체</button></div>
                             <div class="divTableCell"><button>이체</button></div>
                             </div>
                             <div class="divTableRow">
                             <div class="divTableCell">cell1_5</div>
                             <div class="divTableCell">cell2_5</div>
-                            <div class="divTableCell">cell3_5</div>
-                            <div class="divTableCell">cell3_5</div>
                             <div class="divTableCell">cell3_5</div>
                             <div class="divTableCell">cell4_5</div>
                             <div class="divTableCell"><button>이체</button></div>
@@ -137,69 +149,8 @@
                             </div>
                     </div>
 
-                    <div>임금지불 내역</div>
+                    <div>블랙리스트 현황</div>
                     <div>
-                        <div>
-                            <select name="" id="">
-                                <option value="">긴급</option>
-                                <option value="">일일</option>
-                            </select>
-
-                            <select name="" id="">
-                                <option value="">2021</option>
-                                <option value="">2020</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                                <option value="">7</option>
-                                <option value="">8</option>
-                                <option value="">9</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                               
-                            </select>
-                            <select name="" id="">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                                <option value="">7</option>
-                                <option value="">8</option>
-                                <option value="">9</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                                <option value="">13</option>
-                                <option value="">14</option>
-                                <option value="">15</option>
-                                <option value="">16</option>
-                                <option value="">17</option>
-                                <option value="">18</option>
-                                <option value="">19</option>
-                                <option value="">20</option>
-                                <option value="">21</option>
-                                <option value="">22</option>
-                                <option value="">23</option>
-                                <option value="">24</option>
-                                <option value="">25</option>
-                                <option value="">26</option>
-                                <option value="">27</option>
-                                <option value="">28</option>
-                                <option value="">29</option>
-                                <option value="">30</option>
-                                <option value="">31</option>
-                            </select>
-                            <button>검색</button>
-                        </div>
-
                         <div class="divTable minimalistBlack">
                             <div class="divTableHeading">
                             <div class="divTableRow">
@@ -257,7 +208,11 @@
                            
                             </div>
                     </div>
-                   
+                    <div>
+                        <li> 경고 1회 - 7일 정지 및 경고 알림 발송</li>
+                        <li> 경고 2회 - 30일 정지 및 경고 알림 발송</li>
+                        <li> 경고 3회 - 영구 정지</li>
+                    </div>
                 </div><!--중간 메뉴바 종료-->
                
             
@@ -348,6 +303,5 @@
         </div>
 
     </footer>
-
 </body>
 </html>

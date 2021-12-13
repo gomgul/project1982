@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link type="text/css" href="/project1982/resources/css/1_login.css" rel="stylesheet"/>
+    <link type="text/css" href="/project1982/resources/css/2_login.css" rel="stylesheet"/>
 </head>
 <script>
 	window.onload = function(){
@@ -34,12 +34,15 @@
 <body>
 
     <form action="login.do" method="get" id="login-form" name="loginform">
-    	<h1>사업자 로그인</h1>
+    	<h1>1982(구직자 로그인)</h1>
         <input name="userid" type="text" placeholder="ID" />
         <input name="userpass" type="password" placeholder="Password" />
         <input type="submit" name="Submit" id="Submit" value="로그인" />
-        <a href="2_register.do">회원가입</a>
-        <a href="../main.do">1982</a>
+        <ul>
+        	<li>아이디 |</li>
+        	<li>비밀번호 찾기 |</li>
+        	<li>회원가입</li>
+        </ul>
     </form>
     
 </body>
