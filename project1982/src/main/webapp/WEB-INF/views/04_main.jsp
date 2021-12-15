@@ -10,7 +10,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-<link rel="stylesheet" href="<c:url value=' /resources/css/4_main.css' />" >
+<link rel="stylesheet" href="<c:url value='/resources/css/4_main.css' />" >
 </head>
 <body>
  
