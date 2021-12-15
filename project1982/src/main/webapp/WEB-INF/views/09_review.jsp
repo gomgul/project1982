@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
     <title>Document</title>
-    <link rel="stylesheet" href="<c:url value='9_review.css'/>" >
+    <link rel="stylesheet" href="<c:url value='/resources/css/9_review.css'/>" >
 </head>
 <body>
     <div class="wrap">

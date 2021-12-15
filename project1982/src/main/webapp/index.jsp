@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>Home</title>
-</head>z
+</head>
 <body>
 <h1>
 	Hello world!  
@@ -18,6 +18,13 @@
 <a href='06_my_store.do'>6</a> <br>
 <a href='07_profile.do'>7</a> <br>
 <a href='08_board.do'>8</a> <br>
+<a href='09_review.do'>9</a> <br>
+<a href='10_building_board.do'>10</a> <br>
+<a href='13_building_up.do'>13</a> <br>
+<a href='14_building_board2.do'>14</a> <br>
+<a href='15_building_board3.do'>15</a> <br>
+<a href='17_building_board4.do'>17</a> <br>
+<a href='20_customerService.do'>20</a> <br>
 
 
 
