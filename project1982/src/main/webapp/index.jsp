@@ -10,9 +10,6 @@
 	Hello world!  
 </h1>
 
-<p> <a href='user/userLogin.do'>로그인</a> </p>
-<p> <a href='user/userJoin.do'>회원가입</a></p>
-
 <a href='01_intro.do'>1</a> <br>
 <a href='02_login.do'>2</a> <br>
 <a href='03_register.do'>3</a> <br>
