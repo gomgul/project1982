@@ -16,15 +16,7 @@
         <input name="username" type="text" placeholder="Username" />
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="로그인" />
-        <div class="login_article">
-            <a href="#">아이디 |</a>
-            <a href="#">비밀번호찾기 |</a>
-            <a href="#">회원가입</a>
-        </div>    
     </form>
-
-
-        
     <script
    src="https://kit.fontawesome.com/6478f529f2.js"
    crossorigin="anonymous"
