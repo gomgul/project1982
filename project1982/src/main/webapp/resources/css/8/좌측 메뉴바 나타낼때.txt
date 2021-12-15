@@ -1,0 +1,4 @@
+.left nav {
+
+	내부에 있는 display:none 제거하면 표출됨
+}
