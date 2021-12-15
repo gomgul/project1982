@@ -32,14 +32,12 @@
 </script>
 <body>
 	<form action="#" method="get" id="login-form">
-        <h1>1982 사업자</h1>
+        <h1>1982 관리자</h1>
         <input name="username" type="text" placeholder="Username" />
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="로그인" />
         <div class="login_article">
-            <a href="#">아이디 |</a>
-            <a href="#">비밀번호찾기 |</a>
-            <a href="owner_register.do">회원가입</a>
+            <a href="../main.do">1982 홈페이지</a>           
         </div>    
     </form>
 </body>

@@ -25,7 +25,7 @@
                
                 <li><a href="#soge">소개</a></li>
                 <li><a href="#team">팀 소개</a></li>
-                <li><a href="login/1_login.do">관리자로그인</a></li>
+                <li><a href="login/admin_login.do">관리자로그인</a></li>
                 
             </ul>
             <!-- 오른쪽 메뉴-->
