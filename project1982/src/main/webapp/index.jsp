@@ -34,7 +34,7 @@
                 <a href="#" class="search">
                     <i class="fas fa-search"></i>
                 </a>
-                <!--유저 -->
+                <!--유저 -->d
                 <a href="#" class="user">
                     <i class="far fa-user"></i>
                 </a>
