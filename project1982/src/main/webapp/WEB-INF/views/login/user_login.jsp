@@ -33,17 +33,24 @@
 </script>
 <body>
 
-    <form action="login.do" method="get" id="login-form" name="loginform">
-    	<h2>1982(구직자 로그인)</h2>
-        <input name="userid" type="text" placeholder="ID" />
-        <input name="userpass" type="password" placeholder="Password" />
-        <input type="submit" name="Submit" id="Submit" value="로그인" />
-        <ul id="">
-        	<li><a href="#">아이디 |</a></li>
-        	<li><a href="#">비밀번호 찾기 |</a></li>
-        	<li><a href="register.do">회원가입</a></li>
-        </ul>
+    <form action="login.do" method="get" id="login-form">
+        <h1>1982 구직자</h1>
+        <input name="username" type="text" placeholder="Username" />
+        <input name="password" type="password" placeholder="Password" />
+        <input type="submit" value="로그인" />
+        <div class="login_article">
+            <a href="#">아이디 |</a>
+            <a href="#">비밀번호찾기 |</a>
+            <a href="user_register.do">회원가입</a>
+        </div>    
     </form>
+
+
+        
+    <script
+   src="https://kit.fontawesome.com/6478f529f2.js"
+   crossorigin="anonymous"
+   ></script>
     
 </body>
 </html>

@@ -50,8 +50,8 @@
         </header>
 
     <div class="main">
-        <a class="main_button" href="login/1_login.do">구직자 로그인</a>
-        <a class="main_button" href="login/1_login.do">사업자 로그인</a>
+        <a class="main_button" href="login/user_login.do">구직자 로그인</a>
+        <a class="main_button" href="login/owner_login.do">사업자 로그인</a>
     </div>
 <!-- main------------------------------------------------------------------>
     <section>

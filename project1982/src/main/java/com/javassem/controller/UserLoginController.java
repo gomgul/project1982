@@ -11,7 +11,7 @@ import com.javassem.service.UserServiceImpl;
 
 @Controller
 @RequestMapping("login")
-public class LoginController {
+public class UserLoginController {
 	
 	@RequestMapping("{step}.do")
 	public String userJoin(@PathVariable String step){

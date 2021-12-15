@@ -43,8 +43,6 @@
             <form action="friends.html" method="get" id="login-form">
                
                 <input type="submit" value="검색" />
-                
-                <a href="#">1982</a>
               </form>
 
         </header>
