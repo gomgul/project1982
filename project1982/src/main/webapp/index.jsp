@@ -16,16 +16,16 @@
         <header class="header" >
          <!-- 로고-->
             
-            <a href="#" class="logo">
+            <a href="main.do" class="logo">
                 <img src="./3.jpg"/>
             </a>
             
             <!--메뉴-->   
             <ul class="menu">
                
-                <li><a href="#soge">소개</a></li>
-                <li><a href="#team">팀 소개</a></li>
-                <li><a href="login/admin_login.do">관리자로그인</a></li>
+                <li class="nav-item"><a class="nav-link" href="#soge">소개</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">팀 소개</a></li>
+                <li class="nav-item"><a class="nav-link" href="login/admin_login.do">관리자로그인</a></li>
                 
             </ul>
             <!-- 오른쪽 메뉴-->

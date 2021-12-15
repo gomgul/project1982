@@ -50,6 +50,17 @@ a {
     color: #0b9d8a;
     transition: all ease 0.3s;
   }
+  
+  
+  
+  .nav_link{
+  	display:block;
+  	padding: 0.5rem 1rem;
+  	color: #ffc800l;
+  	text-decoration: none;
+  	transition: color 0.15s ease-in-out, background-color 0.15s ease-int-put, border-color 0.15s ease-in-out;
+  }
+  
   .sale-lable {
     width: 38px;
     height: 17px;
