@@ -22,7 +22,7 @@
 	        <input name="ownerpass" type="password" placeholder="비밀번호 확인" />
         <div>
        		<input class="ownername" name="ownername" type="text" placeholder="이름을 입력하세요" />
-       		<input class="ownerbirth" name="ownerbirth" type="text" placeholder="생년월일을 입력하세요" />
+       		
 	        <input class="id_input" name="ownerpn" type="text" placeholder="핸드폰 번호를 입력하세요" />
 	        <input type="submit" value="인증요청" />
         </div>
