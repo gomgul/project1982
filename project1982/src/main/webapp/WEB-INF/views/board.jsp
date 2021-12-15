@@ -17,7 +17,7 @@
         <header class="header" >
             <!-- 로고-->
                <div>
-               <a href="#" class="logo">
+               <a href="main.do" class="logo">
                    <h1>1982</h1>
                </a>
                </div>

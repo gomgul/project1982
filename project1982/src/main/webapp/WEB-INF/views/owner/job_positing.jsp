@@ -17,7 +17,7 @@
         <header class="header" >
             <!-- 로고-->
                <div>
-               <a href="#" class="logo">
+               <a href="../main.do" class="logo">
                    <h1>1982</h1>
                </a>
                </div>
@@ -27,18 +27,18 @@
                <!-- 오른쪽 메뉴-->
                <div class="right-menu">
                    <!--검색 -->
-                   <a href="user/storeClose.do" class="search">
+                   <a href="../user/storeClose.do" class="search">
                    일자리찾기
                    </a>
-                   <a href="owner/job_positing.do" class="search">
+                   <a href="job_positing.do" class="search">
                     구인공고
                    </a>
                    <!--유저 -->
-                   <a href="user/userMypage.do" class="user">
+                   <a href="../user/userMypage.do" class="user">
                    마이페이지
                    </a>
                    <!--카트  -->
-                   <a href="board.do">
+                   <a href="../board.do">
                    고객센터
                        <!--카트 상품-->
                        
