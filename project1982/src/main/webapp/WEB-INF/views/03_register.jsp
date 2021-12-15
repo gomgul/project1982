@@ -13,18 +13,22 @@
 </head>
 <body>
     <form action="friends.html" method="get" id="login-form">
-        <input name="userid" type="text" placeholder="아이디를 입력해주세요" />
+        <h1>1982 구직자 - 회원가입</h1>
+        <div>
+        <input class="id_input" name="userid" type="text" placeholder="아이디를 입력하세요" />
         <input type="submit" value="중복확인" />
+        </div>
         <input name="password" type="password" placeholder="비밀번호를 입력하세요" />
         <input name="password" type="password" placeholder="비밀번호 확인" />
-        <input name="phone" type="password" placeholder="핸드폰 번호를 입력하세요" />
+        <div>
+        <input class="id_input" name="phone" type="password" placeholder="핸드폰 번호를 입력하세요" />
         <input type="submit" value="인증요청" />
+        </div>
         <input name="phoneid" type="password" placeholder="인증번호" />
         <input name="email" type="password" placeholder="이메일" />
 
         <input type="submit" value="가입" />
-        <input type="submit" value="취소" />
-        <a href="#">1982</a>
+  
       </form>
 </body>
 </html>

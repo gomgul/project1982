@@ -11,7 +11,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-<link rel="stylesheet" href="<c:url value='/resources/css/5_store.css' />" >
+    <link rel="stylesheet" href="<c:url value='/resources/css/5_store.css' />" >
 </head>
 <body>
  
@@ -19,29 +19,29 @@
         <!--메뉴바  ------------------------------------------------->
         <header class="header" >
          <!-- 로고-->
-            
+            <div>
             <a href="#" class="logo">
-                <img src="./3.jpg"/>
+                <h1>1982</h1>
             </a>
+            </div>
+            <!--메뉴--> 
+          
             
-            <!--메뉴-->   
-            <h1>업체 상세 페이지</h1>
             <!-- 오른쪽 메뉴-->
             <div class="right-menu">
                 <!--검색 -->
                 <a href="#" class="search">
-                    <i class="fas fa-search"></i>
+                 구인공고
                 </a>
                 <!--유저 -->
                 <a href="#" class="user">
-                    <i class="far fa-user"></i>
+                마이페이지
                 </a>
                 <!--카트  -->
                 <a href="#">
-                    <i class="fas fa-shopping-cart">
+                고객센터
                     <!--카트 상품-->
-                    <span class="num-cart-product">0</span>
-                    </i>
+                    
                 </a>
             </div>
 
@@ -57,7 +57,7 @@
                     <input name="username" type="text" placeholder="업체명" />
                     <input name="password" type="password" placeholder="주소" />
                     <input name="password" type="password" placeholder="연락처" />
-                    <input name="password" type="password" placeholder="날짜" />
+                   
                     <input name="password" type="password" placeholder="업종" />
                     <input type="submit" value="길찾기" />
                   </form>
@@ -69,65 +69,121 @@
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
-                        4.3/5</div>
-                      <button>지원하기</button>
+                        4/5</div>
+                      <button class="button">지원하기</button>
                   </div>
             </div>
         </main>
 
-        <!-- -------------------------------------------------------------------->
+        <!--아래 게시판 ----------------------------------------------------------------------->
 
         <section class="section_main">
-            <div class="main_title">
-                <select name="" id="">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                </select>
-                <input name="password" type="password" placeholder="내용을 입력해주세요" class="main_input"/>
-                <button class="button">검색</button>
-            </div>
-            <div class="chart_title">             
-                    <div><a href="#">작성일순</a></div>
-                    <div><a href="#">별점순</a></div>
-                    <div>총 4건</div>
-            </div>
-            <div>
-                
-                <table border='1'>
-                    <tr>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>Apple</td>
-                      <td>3000</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                   
-                    </tr>
-                    <tr>
-                      <td>Banana</td>
-                      <td>2000</td>
-                      <td>Product</td>
-                      <td>Price</td>
-                      <td>Product</td>
-                     
-                    </tr>
-                    <tr>
-                        <td>Banana</td>
-                        <td>2000</td>
-                        <td>Product</td>
-                        <td>Price</td>
-                        <td>Product</td>
-                    </tr>                    
-                  </table>
-                  
+           
+            
+
+
+
+
+            <div id="mainWrapper">
+
+                <ul>
+                    <!-- 게시판 제목 -->
+                    <div class="board_title">사용자 리뷰 </div>
+        
+                    <!-- 게시판 목록  -->
+                    <li>
+                        
+                        <div class="chart_title">             
+                            <div><a href="#">작성일순</a></div>
+                            <div><a href="#">별점순</a></div>
+                            <div>총 4건</div>
+                        </div>
+                        <ul id ="ulTable">
+                            <li>
+                                <ul>
+                                    <li>No</li>
+                                    <li>제목</li>
+                                    <li>작성일</li>
+                                    <li>작성자</li>
+                                    <li>별점</li>
+                                </ul>
+                            </li>
+                            <!-- 게시물이 출력될 영역 -->
+                            <li>
+                                <ul>
+                                    <li class="left">1</li>
+                                    <li class="left">제목제목제목제목1</li>
+                                    <li class="left">2014.07.09</li>
+                                    <li class="left">자바킹</li>
+                                    <li class="left">
+                                        <i class="far fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                                    </li>
+                                </ul>
+                            </li>
+        
+                            <li>
+                                <ul>
+                                    <li class="left">2</li>
+                                    <li class="left">제목제목제목제목1</li>
+                                    <li class="left">2014.07.09</li>
+                                    <li class="left">자바킹</li>
+                                    <li class="left">0</li>
+                                </ul>
+                            </li>
+        
+                            <li>
+                                <ul>
+                                    <li class="left">3</li>
+                                    <li class="left">제목제목제목제목1</li>
+                                    <li class="left">2014.07.09</li>
+                                    <li class="left">자바킹</li>
+                                    <li class="left">0</li>
+                                </ul>
+                            </li>
+        
+                            <li>
+                                <ul>
+                                    <li class="left">4</li>
+                                    <li class="left">제목제목제목제목1</li>
+                                    <li class="left">2014.07.09</li>
+                                    <li class="left">자바킹</li>
+                                    <li class="left">0</li>
+                                </ul>
+                            <li>                                        
+                        </ul>
+                    </li>
+        
+                    <!-- 게시판 페이징 영역 -->
+                    <li>
+                        <div id="divPaging">
+                            <div>◀</div>
+                               <div><b>1</b></div>
+                            <div>2</div>
+                            <div>3</div>
+                            <div>4</div>
+                            <div>5</div>
+                            <div>▶</div>
+                        </div>
+                    </li>
+        
+                    <!-- 검색 폼 영역 -->
+                    <li id='liSearchOption'>
+                        <div>
+                            <select id='selSearchOption' class="search_height">
+                                <option value='A'>제목+내용</option>
+                                <option value='T'>제목</option>
+                                <option value='C'>내용</option>
+                            </select>
+                            <input id='txtKeyWord' class="search_height"/>
+                            <input type='button' value='검색'class="search_height"/>
+                        </div>
+                        </li>
+        
+                </ul>
             </div>
 
         </section>

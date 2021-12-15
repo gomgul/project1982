@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>Home</title>
-</head>
+</head>z
 <body>
 <h1>
 	Hello world!  
