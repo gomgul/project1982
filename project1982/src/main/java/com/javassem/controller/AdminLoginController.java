@@ -10,12 +10,12 @@ import com.javassem.service.UserService;
 import com.javassem.service.UserServiceImpl;
 
 @Controller
-@RequestMapping("user")
-public class UserLoginController {
+@RequestMapping("admin")
+public class AdminLoginController {
 	
 	@RequestMapping("{step}.do")
-	public String userJoin(@PathVariable String step){
-		return "/user/" + step;
+	public String adminJoin(@PathVariable String step){
+		return "/admin/" + step;
 	}
 	
 	@Autowired

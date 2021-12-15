@@ -12,40 +12,39 @@
     <link type="text/css" href="/project1982/resources/css/4_main.css" rel="stylesheet"/>
 </head>
 <body>
- 
-
         <!--메뉴바  ------------------------------------------------->
         <header class="header" >
-         <!-- 로고-->
-            
-            <a href="#" class="logo">
-                <img src="./3.jpg"/>
-            </a>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <select name="" id="" class="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            
-            <!--메뉴-->   
-            
-            <!-- 오른쪽 메뉴-->
-            <form action="friends.html" method="get" id="login-form">
+            <!-- 로고-->
+               <div>
+               <a href="main.do" class="logo">
+                   <h1>1982</h1>
+               </a>
+               </div>
+               <!--메뉴--> 
+             
                
-                <input type="submit" value="검색" />
-              </form>
-
-        </header>
+               <!-- 오른쪽 메뉴-->
+               <div class="right-menu">
+                   <!--검색 -->
+                   <a href="user/storeClose.do" class="search">
+                   일자리찾기
+                   </a>
+                   <a href="owner/job_positing.do" class="search">
+                    구인공고
+                   </a>
+                   <!--유저 -->
+                   <a href="user/userMypage.do" class="user">
+                   마이페이지
+                   </a>
+                   <!--카트  -->
+                   <a href="board.do">
+                   고객센터
+                       <!--카트 상품-->
+                       
+                   </a>
+               </div>
+   
+           </header>
 
     <!-- 메인 ---------------------------------------------------------------->
         <main >
@@ -123,20 +122,34 @@
                         <div class="main_right"></div>
                   </div>
                 </div>
+                <div id="divPaging">
+                    <div>◀</div>
+                       <div><b>1</b></div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>▶</div>
+                </div>
+                
             </div>
+           
             <div>
                 <div class="main_title">추천 일자리</div>
                 <div  class="main_article">
-                       <div class="main_center"></div>
-                       <div class="main_center"></div>
-                       <div class="main_center"></div>
-                        <div class="main_center"></div>
+                       <div class="main_right"></div>
+                       <div class="main_right"></div>
+                       <div class="main_right"></div>
+                        <div class="main_right"></div>
                 </div>
-                <div  class="main_article"">
-                       <div class="main_center1"></div>
-                       <div class="main_center1"></div>
-                       <div class="main_center1"></div>
-                        <div class="main_center1"></div>
+                <div id="divPaging">
+                    <div>◀</div>
+                       <div><b>1</b></div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>▶</div>
                 </div>
             </div>
         </main>
@@ -217,6 +230,5 @@
         </div>
 
     </footer>
-
 </body>
 </html>
