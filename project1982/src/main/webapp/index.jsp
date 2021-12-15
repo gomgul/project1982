@@ -176,7 +176,7 @@
                         </p>
                         <p>
                             <span>TEL : 1566-1982</span>
-                            <span>E - mail : 1982@seho.co.kr</span>
+                            <span>E - mail : 1982@seho.co.krd</span>
                             <span>호스팅제공자 : 코스모(주)</span>
                         </p>
                     </div>
