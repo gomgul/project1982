@@ -20,8 +20,18 @@ a {
   width: 100%;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
   }
+   .logo{
+    font-size: 100px;
+    color:black;
+  }
   .logo img {
     height: 70px;
+  }
+  .right-menu a {
+    padding-right: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.7);
   }
   .menu {
     display: flex;
@@ -37,11 +47,7 @@ a {
   .menu li a {
     color: #555555;
   }
-  .right-menu a {
-    margin: 0px 10px;
-    font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.7);
-  }
+
   .menu a:hover,
   .right-menu a:hover,
   .search-cancel:hover,

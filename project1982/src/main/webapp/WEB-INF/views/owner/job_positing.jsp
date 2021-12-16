@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <title>job_positing.jsp</title>              <button>수정 </button>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
@@ -14,47 +13,39 @@
     <link type="text/css" href="/project1982/resources/style/header.css" rel="stylesheet"/>
 </head>
 <body>
- 
-
         <!--메뉴바  ------------------------------------------------->
         <header class="header" >
-         <!-- 로고-->
-            
-            <a href="#" class="logo">
-                <img src=""/>
-            </a>
-            
-            <!--메뉴-->   
-            <ul class="menu">
-                <li><a href="#">구직자용</a></li>
-                <li><a href="#">구인자용</a>
-                <!--쎄일 라벨 -->
-                    <span class="sale-lable">신규</span>
-                </li>
-                <li><a href="#">둘러보기</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">고객센터</a></li>
-            </ul>
-            <!-- 오른쪽 메뉴-->
-            <div class="right-menu">
-                <!--검색 -->
-                <a href="#" class="search">
-                    <i class="fas fa-search"></i>
-                </a>
-                <!--유저 -->
-                <a href="#" class="user">
-                    <i class="far fa-user"></i>
-                </a>
-                <!--카트  -->
-                <a href="#">
-                    <i class="fas fa-shopping-cart">
-                    <!--카트 상품-->
-                    <span class="num-cart-product">0</span>
-                    </i>
-                </a>
-            </div>
-
-        </header>
+            <!-- 로고-->
+               <div>
+               <a href="../main.do" class="logo">
+                   <h1>1982</h1>
+               </a>
+               </div>
+               <!--메뉴--> 
+             
+               
+               <!-- 오른쪽 메뉴-->
+               <div class="right-menu">
+                   <!--검색 -->
+                   <a href="../user/storeClose.do" class="search">
+                   일자리찾기
+                   </a>
+                   <a href="job_positing.do" class="search">
+                    구인공고
+                   </a>
+                   <!--유저 -->
+                   <a href="../user/userMypage.do" class="user">
+                   마이페이지
+                   </a>
+                   <!--카트  -->
+                   <a href="../board.do">
+                   고객센터
+                       <!--카트 상품-->
+                       
+                   </a>
+               </div>
+   
+           </header>
 
     <!-- 메인 ---------------------------------------------------------------->
         <main>

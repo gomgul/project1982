@@ -25,7 +25,7 @@
                
                 <li class="nav-item"><a class="nav-link" href="#soge">소개</a></li>
                 <li class="nav-item"><a class="nav-link" href="#team">팀 소개</a></li>
-                <li class="nav-item"><a class="nav-link" href="login/admin_login.do">관리자로그인</a></li>
+                <li class="nav-item"><a class="nav-link" href="admin/admin_login.do">관리자로그인</a></li>
                 
             </ul>
             <!-- 오른쪽 메뉴-->
