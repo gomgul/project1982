@@ -13,7 +13,14 @@ public class UserVO {
 	private String usermail;
 	private String userimg;
 	private String userdate;
+	private String userbirth;
 	
+	public String getUserbirth() {
+		return userbirth;
+	}
+	public void setUserbirth(String userbirth) {
+		this.userbirth = userbirth;
+	}
 	public int getUsernum() {
 		return usernum;
 	}
