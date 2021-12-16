@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="supervisor">
 
 	<select id="idCheck" parameterType="com.javassem.domain.ParkVO" resultType="com.javassem.domain.ParkVO">
-		select * from member 
+		select * from administrator 
 		<where>
 		<if test="supervisorId != null">
 				supervisorID = #{supervisorId} 
