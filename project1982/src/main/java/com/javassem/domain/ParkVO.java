@@ -1,5 +1,7 @@
 package com.javassem.domain;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+
 public class ParkVO {
 	
 	
